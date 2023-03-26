@@ -20,6 +20,7 @@
 		4551564929D0F2F700E55BA5 /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4551564829D0F2F700E55BA5 /* GFBodyLabel.swift */; };
 		4551564B29D0F3C600E55BA5 /* GFAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4551564A29D0F3C600E55BA5 /* GFAlertViewController.swift */; };
 		4551564D29D0FD2900E55BA5 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4551564C29D0FD2900E55BA5 /* UIViewController+Ext.swift */; };
+		4551565429D105B600E55BA5 /* GFAlertContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4551565329D105B600E55BA5 /* GFAlertContainerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		4551564829D0F2F700E55BA5 /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
 		4551564A29D0F3C600E55BA5 /* GFAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertViewController.swift; sourceTree = "<group>"; };
 		4551564C29D0FD2900E55BA5 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		4551565329D105B600E55BA5 /* GFAlertContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertContainerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				4502047C29CFCF51009C09D0 /* GFTextField.swift */,
 				4551564629D0F14B00E55BA5 /* GFTitleLabel.swift */,
 				4551564829D0F2F700E55BA5 /* GFBodyLabel.swift */,
+				4551565329D105B600E55BA5 /* GFAlertContainerView.swift */,
 			);
 			path = "Custom Views";
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4551565429D105B600E55BA5 /* GFAlertContainerView.swift in Sources */,
 				4551564B29D0F3C600E55BA5 /* GFAlertViewController.swift in Sources */,
 				4502047D29CFCF51009C09D0 /* GFTextField.swift in Sources */,
 				4502047729CFB70A009C09D0 /* SearchViewController.swift in Sources */,
