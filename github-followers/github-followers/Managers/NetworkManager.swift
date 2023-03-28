@@ -7,17 +7,17 @@
 
 import UIKit
 
-final class NetworkManager {
+// better to abstract out in a protocol
+class NetworkManager {
     static let shared = NetworkManager()
     private let baseURL = "https://api.github.com/users/"
     let cache = NSCache<NSString, UIImage>()
     
     private init() {}
     
-    func getFollowers<T: Codable>(for username: String, page: Int, type: T.Type, completionHandler: @escaping (Result<T, GFError>) -> Void) {
-        let endpoint = baseURL + "\(username)/followers?per_page=100&page=\(page)"
+    func loadData<T: Codable>(url: String, type: T.Type, completionHandler: @escaping (Result<T, GFError>) -> Void) {
         
-        guard let url = URL(string: endpoint) else {
+        guard let url = URL(string: url) else {
             completionHandler(.failure(.invalidUsername))
             return
         }
@@ -48,5 +48,15 @@ final class NetworkManager {
         }
         task.resume()
 
+    }
+    
+    func getFollowers(for username: String, page: Int, completionHandler: @escaping (Result<[Follower], GFError>) -> Void) {
+        let endpoint = baseURL + "\(username)/followers?per_page=100&page=\(page)"
+        loadData(url: endpoint, type: [Follower].self, completionHandler: completionHandler)
+    }
+    
+    func getUserInfo(for username: String, completionHandler: @escaping (Result<User, GFError>) -> Void) {
+        let endpoint = baseURL + "\(username)"
+        loadData(url: endpoint, type: User.self, completionHandler: completionHandler)
     }
 }
