@@ -28,6 +28,7 @@
 		4551566229D13AB000E55BA5 /* FollowersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4551566129D13AB000E55BA5 /* FollowersCell.swift */; };
 		4551566429D13B2400E55BA5 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4551566329D13B2400E55BA5 /* GFAvatarImageView.swift */; };
 		4551566629D2550300E55BA5 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4551566529D2550300E55BA5 /* UIHelper.swift */; };
+		4551566D29D280F800E55BA5 /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4551566C29D280F800E55BA5 /* GFEmptyStateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		4551566129D13AB000E55BA5 /* FollowersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowersCell.swift; sourceTree = "<group>"; };
 		4551566329D13B2400E55BA5 /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		4551566529D2550300E55BA5 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		4551566C29D280F800E55BA5 /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,14 +113,13 @@
 		4551564F29D103AF00E55BA5 /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				4551566B29D280A200E55BA5 /* ImageViews */,
+				4551566A29D2809D00E55BA5 /* Views */,
+				4551566929D2809800E55BA5 /* Labels */,
+				4551566829D2808800E55BA5 /* TextFields */,
+				4551566729D2807F00E55BA5 /* Buttons */,
 				4551566029D13A9100E55BA5 /* Cells */,
 				4551565129D1041F00E55BA5 /* View Controllers */,
-				4502047A29CFC849009C09D0 /* GFButton.swift */,
-				4502047C29CFCF51009C09D0 /* GFTextField.swift */,
-				4551564629D0F14B00E55BA5 /* GFTitleLabel.swift */,
-				4551564829D0F2F700E55BA5 /* GFBodyLabel.swift */,
-				4551565329D105B600E55BA5 /* GFAlertContainerView.swift */,
-				4551566329D13B2400E55BA5 /* GFAvatarImageView.swift */,
 			);
 			path = "Custom Views";
 			sourceTree = "<group>";
@@ -182,6 +183,48 @@
 				4551566129D13AB000E55BA5 /* FollowersCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		4551566729D2807F00E55BA5 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				4502047A29CFC849009C09D0 /* GFButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		4551566829D2808800E55BA5 /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				4502047C29CFCF51009C09D0 /* GFTextField.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		4551566929D2809800E55BA5 /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				4551564829D0F2F700E55BA5 /* GFBodyLabel.swift */,
+				4551564629D0F14B00E55BA5 /* GFTitleLabel.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
+		4551566A29D2809D00E55BA5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4551565329D105B600E55BA5 /* GFAlertContainerView.swift */,
+				4551566C29D280F800E55BA5 /* GFEmptyStateView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4551566B29D280A200E55BA5 /* ImageViews */ = {
+			isa = PBXGroup;
+			children = (
+				4551566329D13B2400E55BA5 /* GFAvatarImageView.swift */,
+			);
+			path = ImageViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +299,7 @@
 			files = (
 				4551565429D105B600E55BA5 /* GFAlertContainerView.swift in Sources */,
 				4551566229D13AB000E55BA5 /* FollowersCell.swift in Sources */,
+				4551566D29D280F800E55BA5 /* GFEmptyStateView.swift in Sources */,
 				4551564B29D0F3C600E55BA5 /* GFAlertViewController.swift in Sources */,
 				4502047D29CFCF51009C09D0 /* GFTextField.swift in Sources */,
 				4502047729CFB70A009C09D0 /* SearchViewController.swift in Sources */,
