@@ -29,6 +29,7 @@
 		4551566429D13B2400E55BA5 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4551566329D13B2400E55BA5 /* GFAvatarImageView.swift */; };
 		4551566629D2550300E55BA5 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4551566529D2550300E55BA5 /* UIHelper.swift */; };
 		4551566D29D280F800E55BA5 /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4551566C29D280F800E55BA5 /* GFEmptyStateView.swift */; };
+		4551566F29D2921600E55BA5 /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4551566E29D2921500E55BA5 /* UserInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		4551566329D13B2400E55BA5 /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		4551566529D2550300E55BA5 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		4551566C29D280F800E55BA5 /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
+		4551566E29D2921500E55BA5 /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				4502047829CFB78D009C09D0 /* FavoritesListViewController.swift */,
 				4502047629CFB70A009C09D0 /* SearchViewController.swift */,
 				4551564429D0C91B00E55BA5 /* FollowerListViewController.swift */,
+				4551566E29D2921500E55BA5 /* UserInfoViewController.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4551565429D105B600E55BA5 /* GFAlertContainerView.swift in Sources */,
+				4551566F29D2921600E55BA5 /* UserInfoViewController.swift in Sources */,
 				4551566229D13AB000E55BA5 /* FollowersCell.swift in Sources */,
 				4551566D29D280F800E55BA5 /* GFEmptyStateView.swift in Sources */,
 				4551564B29D0F3C600E55BA5 /* GFAlertViewController.swift in Sources */,
