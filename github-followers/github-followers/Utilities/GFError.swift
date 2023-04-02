@@ -1,8 +1,8 @@
 //
-//  ErrorMessage.swift
+//  GFError.swift
 //  github-followers
 //
-//  Created by Sanket Pimple on 3/26/23.
+//  Created by Sanket Pimple on 4/1/23.
 //
 
 import Foundation
