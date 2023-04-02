@@ -26,7 +26,7 @@ final class SearchViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        navigationController?.isNavigationBarHidden = true
+        navigationController?.setNavigationBarHidden(true, animated: true)
     }
     
     func createDismissKeyboardTapGesture() {
@@ -68,7 +68,7 @@ final class SearchViewController: UIViewController {
             userNameTextField.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 50),
             userNameTextField.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -50),
             userNameTextField.heightAnchor.constraint(equalToConstant: 50),
-            userNameTextField.widthAnchor.constraint(equalToConstant: 200)
+//            userNameTextField.widthAnchor.constraint(equalToConstant: 200)
         ])
     }
     
