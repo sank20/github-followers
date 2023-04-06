@@ -39,6 +39,8 @@
 		455156F729DA610B00E55BA5 /* GFFollowerItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455156F629DA610B00E55BA5 /* GFFollowerItemViewController.swift */; };
 		455156FA29DA638A00E55BA5 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455156F929DA638A00E55BA5 /* Date+Ext.swift */; };
 		455156FC29DA63A600E55BA5 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455156FB29DA63A600E55BA5 /* String+Ext.swift */; };
+		455156FE29DA774900E55BA5 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455156FD29DA774900E55BA5 /* PersistenceManager.swift */; };
+		4551570029DAB05100E55BA5 /* FavoritesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455156FF29DAB05100E55BA5 /* FavoritesCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +78,8 @@
 		455156F629DA610B00E55BA5 /* GFFollowerItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFFollowerItemViewController.swift; sourceTree = "<group>"; };
 		455156F929DA638A00E55BA5 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		455156FB29DA63A600E55BA5 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		455156FD29DA774900E55BA5 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		455156FF29DAB05100E55BA5 /* FavoritesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				4551565B29D1159000E55BA5 /* NetworkManager.swift */,
+				455156FD29DA774900E55BA5 /* PersistenceManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -207,6 +212,7 @@
 			isa = PBXGroup;
 			children = (
 				4551566129D13AB000E55BA5 /* FollowersCell.swift */,
+				455156FF29DAB05100E55BA5 /* FavoritesCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -336,6 +342,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4551565429D105B600E55BA5 /* GFAlertContainerView.swift in Sources */,
+				4551570029DAB05100E55BA5 /* FavoritesCell.swift in Sources */,
 				455156EB29D93C7300E55BA5 /* GFError.swift in Sources */,
 				455156F729DA610B00E55BA5 /* GFFollowerItemViewController.swift in Sources */,
 				4551566F29D2921600E55BA5 /* UserInfoViewController.swift in Sources */,
@@ -347,6 +354,7 @@
 				4502047D29CFCF51009C09D0 /* GFTextField.swift in Sources */,
 				4502047729CFB70A009C09D0 /* SearchViewController.swift in Sources */,
 				4551564D29D0FD2900E55BA5 /* UIViewController+Ext.swift in Sources */,
+				455156FE29DA774900E55BA5 /* PersistenceManager.swift in Sources */,
 				4502047B29CFC849009C09D0 /* GFButton.swift in Sources */,
 				4551565929D1109800E55BA5 /* User.swift in Sources */,
 				4551566429D13B2400E55BA5 /* GFAvatarImageView.swift in Sources */,
