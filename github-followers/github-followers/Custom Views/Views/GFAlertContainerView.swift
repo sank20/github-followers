@@ -18,16 +18,15 @@ class GFAlertContainerView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    init() {
-        super.init(frame: .zero)
-        configureView()
+    convenience init() {
+        self.init(frame: .zero)
     }
     
     func configureView() {
-        self.backgroundColor = .systemBackground
-        self.layer.cornerRadius = 16
-        self.layer.borderWidth = 2
-        self.layer.borderColor = UIColor.white.cgColor
-        self.translatesAutoresizingMaskIntoConstraints = false
+        backgroundColor = .systemBackground
+        layer.cornerRadius = 16
+        layer.borderWidth = 2
+        layer.borderColor = UIColor.white.cgColor
+        translatesAutoresizingMaskIntoConstraints = false
     }
 }
